@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react'
 import styles from './index.module.css'
 import Navigation from '../Components/Nav';
+import Listing from '../Components/Listing'
 
 const IndexPage = () => {
   return (
@@ -23,9 +24,13 @@ const IndexPage = () => {
                 <div
                   className={styles.photo}
                 >
-
+                  <img
+                    className={styles.mainPhoto}
+                    src='1612201792182.jpeg'
+                  />
                 </div>
               </div>
+              <Listing/>
             </div>
             <div
               className={styles.routes}
