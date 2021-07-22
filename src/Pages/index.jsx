@@ -41,6 +41,7 @@ const IndexPage = () => {
           <div
             className={styles.navContainer}
           >
+           <Navigation/>
           </div>
         </div>
       </div>

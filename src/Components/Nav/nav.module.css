@@ -1,5 +1,43 @@
 .container {
   width: 100%;
   height: 100%;
-  border: 1px solid red;
+  border-radius: 33px;
+  text-align: center;
+  margin: auto;
+}
+.firstRow {
+  height: 70%;
+  border-radius: 50px;
+  background: white;
+  margin: auto;
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+}
+.iconSocial, .gIconSocial { 
+  color: #B5B6B7; 
+  height: 40px; 
+  width: 40px;
+  cursor: pointer;
+}
+.iconSocial:hover, .gIconSocial:hover {
+  color: #11A478;
+}
+.each {
+  margin-top: 30%;
+}
+.directions {
+  height: 25%;
+  margin-top: 25%;
+  border-radius: 50px;
+  background: white;
+}
+.gIconSocial {
+  margin-top: 5%;
+}
+.gtSign {
+  margin-top: -15%;
+}
+.lsSign {
+  margin-top: 20%;
 }
