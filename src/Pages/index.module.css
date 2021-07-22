@@ -16,15 +16,14 @@ html,body {
 }
 .main, .navContainer {
   height: 585px;
-  width: 80%;
-  border: 1px solid blue;
+  width: 83%;
   margin: 5.5% 0;
-  margin-left: 2%;
+  margin-left: 3%;
   border-radius: 33px;
   background: linear-gradient(#0b7080, #0ba376);;
 }
 .navContainer {
-  width: 13%;
+  width: 8%;
   background: #DDE3E7;
 }
 .contents {
