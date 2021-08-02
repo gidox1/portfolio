@@ -1,5 +1,5 @@
-import { useContext, useState } from "react";
-import { Switch, Route, Redirect, useHistory } from "react-router-dom";
+import React from "react";
+import { Switch, Route, Redirect } from "react-router-dom";
 import IndexPage from '../Pages'
 
 const Routes = () => {
