@@ -13,7 +13,7 @@ const Directions = () => {
         >
           <FaLessThan
             className={`${styles.gIconSocial} ${styles.lsSign}`}
-            />
+          />
         </div>
         <div
           className={styles.each}

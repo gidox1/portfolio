@@ -1,7 +1,8 @@
 import React, { Fragment } from 'react'
 import styles from './index.module.css'
 import Navigation from '../Components/Nav';
-import Listing from '../Components/Listing'
+import Listing from '../Components/Listing';
+import Routes from '../Components/Routes'
 
 const IndexPage = () => {
   return (
@@ -35,7 +36,9 @@ const IndexPage = () => {
             <div
               className={styles.routes}
             >
-
+              <Routes
+                active=""
+              />
             </div>
           </div>
           <div
