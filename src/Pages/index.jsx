@@ -1,10 +1,12 @@
-import React, { Fragment } from 'react'
+import React, { Fragment, useState } from 'react'
 import styles from './index.module.css'
 import Navigation from '../Components/Nav';
 import Listing from '../Components/Listing';
 import Routes from '../Components/Routes'
 
 const IndexPage = () => {
+  const [ page, setPage ] = useState('home');
+
   return (
     <Fragment>
       <div
@@ -37,14 +39,16 @@ const IndexPage = () => {
               className={styles.routes}
             >
               <Routes
-                active=""
+                active={page}
               />
             </div>
           </div>
           <div
             className={styles.navContainer}
           >
-           <Navigation/>
+           <Navigation
+            setPage={setPage}
+           />
           </div>
         </div>
       </div>

@@ -3,7 +3,7 @@ import styles from './nav.module.css'
 import { FaHome, FaUserAlt, FaGraduationCap, FaSuitcase, FaEnvelope } from "react-icons/fa";
 import Directions from '../Directions'
 
-const Navigation = () => {
+const Navigation = (props) => {
   return (
     <Fragment>
       <div
@@ -17,6 +17,7 @@ const Navigation = () => {
           >
             <FaHome
               className={styles.iconSocial}
+              onClick={(e) => props.setPage('home')}
             />
           </div>
           <div
@@ -24,6 +25,7 @@ const Navigation = () => {
           >
             <FaUserAlt
               className={styles.iconSocial}
+              onClick={(e) => props.setPage('about')}
             />
           </div>
           <div
@@ -31,6 +33,7 @@ const Navigation = () => {
           >            
             <FaGraduationCap
               className={styles.iconSocial}
+              onClick={(e) => props.setPage('education')}
             />
           </div>
           <div
@@ -38,6 +41,7 @@ const Navigation = () => {
           >
             <FaSuitcase
               className={styles.iconSocial}
+              onClick={(e) => props.setPage('portfolio')}
             />
           </div>
           <div
@@ -45,6 +49,7 @@ const Navigation = () => {
           >
             <FaEnvelope
               className={styles.iconSocial}
+              onClick={(e) => props.setPage('contact')}
             />
           </div>
         </div>
