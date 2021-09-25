@@ -1,0 +1,43 @@
+.container {
+  height: 585px;
+  width: 100%;
+  border-radius: 33px;
+}
+.con_div {
+  width: 100%;
+  height: 20%;
+  margin: auto;
+  margin-top: 25%;
+  display: flex;
+  flex-flow: column;
+}
+.text {
+  text-align: center;
+  font-size: 45px;
+  line-height: 74px;
+  font-family: 'Poppins', Helvetica, sans-serif;
+  font-weight: 600;
+	animation: fadeIn 2s;
+  	opacity: 1;
+}
+.role_ {
+  font-size: 24px;
+  color: #888;
+  margin: auto;
+  animation: fadeIn 2s;
+  opacity: 1;
+}
+.arr_ {
+  width: 100%;
+  text-align: center;
+  margin-top: -5%;
+}
+
+@keyframes fadeIn {
+  from {
+  	opacity: 0;
+  }
+  to {
+ 	opacity: 1;
+  }
+}

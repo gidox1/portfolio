@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react'
 import styles from './nav.module.css'
-import { FaHome, FaUserAlt, FaGraduationCap, FaSuitcase, FaEnvelope } from "react-icons/fa";
+import { FaHome, FaUserAlt, FaGraduationCap, FaSuitcase, FaEnvelope, FaLaptopCode } from "react-icons/fa";
 import Directions from '../Directions'
 
 const Navigation = (props) => {
