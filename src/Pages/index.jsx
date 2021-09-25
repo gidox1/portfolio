@@ -5,7 +5,7 @@ import Listing from '../Components/Listing';
 import Routes from '../Components/Routes'
 
 const IndexPage = () => {
-  const [ page, setPage ] = useState('home');
+  const [ page, setPage ] = useState('about');
 
   return (
     <Fragment>
@@ -29,7 +29,7 @@ const IndexPage = () => {
                 >
                   <img
                     className={styles.mainPhoto}
-                    src='1612201792182.jpeg'
+                    src='me.jpeg'
                   />
                 </div>
               </div>
