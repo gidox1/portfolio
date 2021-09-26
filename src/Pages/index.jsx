@@ -5,7 +5,7 @@ import Listing from '../Components/Listing';
 import Routes from '../Components/Routes'
 
 const IndexPage = () => {
-  const [ page, setPage ] = useState('about');
+  const [ page, setPage ] = useState('education');
 
   return (
     <Fragment>

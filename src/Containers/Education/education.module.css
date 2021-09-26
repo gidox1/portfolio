@@ -1,6 +1,72 @@
 .container {
-  border: 1px solid red;
   height: 585px;
   width: 100%;
   border-radius: 33px;
+  animation: fadeIn 1.5s;
+  opacity: 1;
+}
+.main {
+  width: 90%;
+  height: 100%;
+  margin: auto;
+}
+.header{
+  margin-top: 5%;
+  font-family: 'Poppins', Helvetica, sans-serif;
+}
+.content {
+  height: 80%;
+}
+.segments{
+  width: 80%;
+  height: 40%;
+  display: flex;
+  flex-flow: row;
+}
+.year {
+  width: 20%;
+  height: 100%;
+}
+.school {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-flow: row;
+}
+.yearLabel{
+  text-align: right;
+  color: #A5A6A7
+}
+.dot_sec, .dot_sec_2 {
+  height: 90%;
+  width: 0;
+  border: 1px solid #A5A6A7;
+  margin-left: 5%;
+  margin-top: 6%;
+}
+.dot_sec_2{
+  margin-top: unset;
+}
+.school_label {
+  height: 50%;
+  width: 90%;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+.main_ball{
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  border: 1px solid red;
+  margin-right: 5%;
+  z-index: 20;
+}
+
+@keyframes fadeIn {
+  from {
+  	opacity: 0;
+  }
+  to {
+ 	opacity: 1;
+  }
 }
