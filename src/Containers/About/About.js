@@ -34,7 +34,7 @@ const About = () => {
                     className={styles.laptop}
                   />
                   <p className={styles.segment_header}>Web Development</p>
-                  <p className={styles.details_}>I have experience in building for the web with technologies like React, Vue, Typescript/Javascript HTML, EJS, and CSS.</p>
+                  <p className={styles.details_}>I have experience in building for the web with technologies like React, Vue, Typescript / Javascript HTML, EJS, and CSS.</p>
                 </div>
 
                 <div style={{width: '100%'}}>
@@ -54,7 +54,7 @@ const About = () => {
                 className={styles.laptop}
               />
               <p className={styles.segment_header}>Backend Development</p>
-              <p className={styles.details_}>I'm vastly experienced in building APIs with technologies like Node (Express, Nest, Adonis), Typescript/Javscript, Python (Flask), MySQL, PostgreSQL and GraphQl</p>
+              <p className={styles.details_}>I'm vastly experienced in building APIs with technologies like Node (Express, Nest, Restify), Typescript / Javscript, Python (Flask), MySQL, PostgreSQL and GraphQl</p>
             </div>
           </div>
         </div>
