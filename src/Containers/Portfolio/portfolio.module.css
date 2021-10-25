@@ -1,6 +1,43 @@
 .container {
-  border: 1px solid red;
   height: 585px;
   width: 100%;
   border-radius: 33px;
+}
+.logoDiv {
+  height: 50%;
+  width: 95%;
+  margin: auto;
+  display: flex;
+  flex-flow: row;
+  margin-top: 10%;
+  justify-content: space-between;
+  text-align: center;
+}
+.each_ {
+  width: 48%;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  border: 1px solid #B5B6B7;
+  cursor: pointer;
+}
+.imgClass {
+  height: 99%;
+  width: 95%;
+  border-radius: 10%;
+  margin: auto;
+}
+.lowerLabel {
+  text-align: center;
+  font-family: 'Poppins', Helvetica, sans-serif;
+  color: #0A727F;
+}
+.ghLogo {
+  height: 60%;
+}
+.npmLogo{
+  height: 40%;
+  margin-right: 10%;
+  width: 90%;
+  margin-left: 5%;
 }
