@@ -5,7 +5,7 @@ import Listing from '../Components/Listing';
 import Routes from '../Components/Routes'
 
 const IndexPage = () => {
-  const [ page, setPage ] = useState('education');
+  const [ page, setPage ] = useState('home');
 
   return (
     <Fragment>
@@ -29,7 +29,7 @@ const IndexPage = () => {
                 >
                   <img
                     className={styles.mainPhoto}
-                    src='me.jpeg'
+                    src='/me.jpeg'
                   />
                 </div>
               </div>
@@ -48,6 +48,7 @@ const IndexPage = () => {
           >
            <Navigation
             setPage={setPage}
+            active={page}
            />
           </div>
         </div>
