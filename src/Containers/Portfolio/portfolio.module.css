@@ -2,6 +2,8 @@
   height: 585px;
   width: 100%;
   border-radius: 33px;
+  animation: fadeIn 1.5s;
+  opacity: 1;
 }
 .logoDiv {
   height: 50%;
@@ -40,4 +42,13 @@
   margin-right: 10%;
   width: 90%;
   margin-left: 5%;
+}
+
+@keyframes fadeIn {
+  from {
+  	opacity: 0;
+  }
+  to {
+ 	opacity: 1;
+  }
 }

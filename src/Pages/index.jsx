@@ -5,7 +5,7 @@ import Listing from '../Components/Listing';
 import Routes from '../Components/Routes'
 
 const IndexPage = () => {
-  const [ page, setPage ] = useState('contact');
+  const [ page, setPage ] = useState('home');
 
   return (
     <Fragment>
@@ -48,6 +48,7 @@ const IndexPage = () => {
           >
            <Navigation
             setPage={setPage}
+            active={page}
            />
           </div>
         </div>

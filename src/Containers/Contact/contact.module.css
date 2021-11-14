@@ -2,6 +2,8 @@
   height: 585px;
   width: 100%;
   border-radius: 33px;
+  animation: fadeIn 1.5s;
+  opacity: 1;
 }
 .content {
   width: 95%;
@@ -28,4 +30,13 @@
   height: 100%;
   width: 65%;
   border: 1px solid red;
+}
+
+@keyframes fadeIn {
+  from {
+  	opacity: 0;
+  }
+  to {
+ 	opacity: 1;
+  }
 }

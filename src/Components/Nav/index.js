@@ -4,6 +4,7 @@ import { FaHome, FaUserAlt, FaGraduationCap, FaSuitcase, FaEnvelope, FaLaptopCod
 import Directions from '../Directions'
 
 const Navigation = (props) => {
+  const allPages = ['home', 'about', 'education', 'portfolio', 'contact']
   return (
     <Fragment>
       <div
@@ -53,7 +54,10 @@ const Navigation = (props) => {
             />
           </div>
         </div>
-        <Directions/>
+        <Directions
+          callback={props.setPage}
+          pages={allPages}
+        />
       </div>
     </Fragment>
   )
