@@ -1,7 +1,10 @@
 import React, { useState } from 'react';
 import styles from './home.module.css';
+import Directions from '../../Components/Directions';
+const allPages = ['home', 'about', 'education', 'portfolio', 'contact']
 
 const Home = (props) => {
+  const { selected } = props;
   return (
     <div
       className={styles.container}
@@ -25,7 +28,6 @@ const Home = (props) => {
             {`{ FullStack }`}
           </label>
         </div>
-
       </div>
     </div>
   )

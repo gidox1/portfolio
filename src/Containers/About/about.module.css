@@ -59,6 +59,9 @@
   font-family: 'Poppins', Helvetica, sans-serif;
   margin-top: 0;
 }
+.inner_seg {
+  width: 100%;
+}
 
 @keyframes fadeIn {
   from {
@@ -66,5 +69,38 @@
   }
   to {
  	opacity: 1;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .header{
+    height: 20%
+  }
+  .inner_seg {
+    margin-bottom: 10%;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .details_ {
+    font-size: 12px;
+  }
+  .segment_header {
+    font-size: 14px
+  }
+  .headerText, .i_do_text {
+    font-size: 20px
+  }
+  .i_do_text {
+    margin-top: 0;
+  }
+  .header{
+    height: 18%;
+    margin-top: 10%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .header{
+    height: 20%
   }
 }

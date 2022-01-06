@@ -1,0 +1,8 @@
+.rounded {
+  display: none;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  position: absolute;
+  color: red;
+}

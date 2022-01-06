@@ -13,21 +13,36 @@ const Routes = (props) => {
     <div
       className={styles.container}
     >
+      <div
+        className={styles.rounded}
+      >
+        Dummy
+      </div>
       {
         (active === 'home') ? (
-          <Home/>
+          <Home
+            selected={true}
+          />
         )
         : (active === 'about') ? (
-          <About/>
+          <About
+            selected={true}
+          />
         )
         : (active === 'contact') ? (
-          <Contact/>
+          <Contact
+            selected={true}
+          />
         )
         : (active === 'education') ? (
-          <Education/>
+          <Education
+            selected={true}
+          />
         )
         : (
-          <Portfolio/>
+          <Portfolio
+            selected={true}
+          />
         )
       }
     </div>

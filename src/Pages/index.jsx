@@ -3,9 +3,14 @@ import styles from './index.module.css'
 import Navigation from '../Components/Nav';
 import Listing from '../Components/Listing';
 import Routes from '../Components/Routes'
+import Directions from '../Components/Directions';
+import Sidebar from '../Components/Sidebar';
+import toggleStyle from '../Components/Sidebar/sidebar.module.css';
+const allPages = ['home', 'about', 'education', 'portfolio', 'contact'];
 
 const IndexPage = () => {
   const [ page, setPage ] = useState('home');
+  const [active, setActive] = useState(false);
 
   return (
     <Fragment>
@@ -50,6 +55,55 @@ const IndexPage = () => {
             setPage={setPage}
             active={page}
            />
+          </div>
+          <div
+            className={`${styles.directions}`}
+          >
+            <Directions
+              callback={setPage}
+              pages={allPages}
+              isHome={true}
+              current={page}
+            />
+          </div>
+          {
+            active && (
+              <div
+                className={styles.sidebar_}
+              > 
+                  <Sidebar
+                    setPage={setPage}
+                    active={active}
+                    setActive={setActive}
+                  />
+              </div>
+            )
+          }
+          <div className={toggleStyle.greenfill}>
+            <div className={toggleStyle.innerFill}>
+              <div 
+                onClick={() => setActive(!active)}
+                className={(active) ? `${toggleStyle.sidebar} ${toggleStyle.active}`: toggleStyle.sidebar}
+              >
+                <div className={toggleStyle.toggleBtn}>
+                  <span
+                    className={
+                      active ? toggleStyle.bar1_ : toggleStyle.bar1
+                    }
+                  ></span>
+                  <span
+                    className={
+                      active ? toggleStyle.bar2_ : toggleStyle.bar2
+                    }
+                  ></span>
+                  <span
+                    className={
+                      active ? toggleStyle.bar3_ : toggleStyle.bar3
+                    }
+                  ></span>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
