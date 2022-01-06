@@ -17,7 +17,7 @@
 .info_{
   height: 70%;
   width: 100%;
-  margin-top: 15%;
+  margin-top: 5%;
 }
 .headerText{
   font-size: 35px;
@@ -77,6 +77,9 @@
   }
   .inner_seg {
     margin-bottom: 10%;
+  }
+  .info_{
+    margin-top: 15%;
   }
 }
 
