@@ -82,10 +82,10 @@
 
 @media only screen and (max-width: 425px) {
   .details_ {
-    font-size: 12px;
+    font-size: 13px;
   }
   .segment_header {
-    font-size: 14px
+    font-size: 15px
   }
   .headerText, .i_do_text {
     font-size: 20px
@@ -95,7 +95,7 @@
   }
   .header{
     height: 18%;
-    margin-top: 10%;
+    margin-top: 20%;  
   }
 }
 
