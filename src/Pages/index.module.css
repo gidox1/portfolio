@@ -123,6 +123,9 @@ html,body {
   }
 }
 @media only screen and (max-width: 425px) {
+  .main{
+    height: 650px;
+  }
   .sidebar {
     width: 100%;
   }
