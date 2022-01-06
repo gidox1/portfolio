@@ -120,11 +120,12 @@ html,body {
   }
   .directions_ {
     border: 1px solid #0CA376;
+    bottom: 20%;
   }
 }
 @media only screen and (max-width: 425px) {
   .main{
-    height: 650px;
+    height: 670px;
   }
   .sidebar {
     width: 100%;
