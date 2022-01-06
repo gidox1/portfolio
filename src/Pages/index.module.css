@@ -113,7 +113,7 @@ html,body {
   }
   .directions{
     position:fixed;
-    bottom: 50%;
+    bottom: 10%;
     right:5%;
     display: unset;
     border-radius: 40%;
