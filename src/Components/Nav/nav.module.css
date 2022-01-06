@@ -13,12 +13,20 @@
   display: flex;
   flex-flow: column;
   text-align: center;
+  border: 1px solid #0CA376;
 }
 .iconSocial, .gIconSocial { 
   color: #B5B6B7; 
   height: 40px; 
   width: 40px;
   cursor: pointer;
+}
+.iconSocialex {
+  color: #B5B6B7; 
+  height: 40px; 
+  width: 40px;
+  cursor: pointer;
+  color: #11A478;
 }
 .iconSocial:hover, .gIconSocial:hover {
   color: #11A478;
@@ -31,13 +39,19 @@
   margin-top: 25%;
   border-radius: 50px;
   background: white;
+  border: 1px solid #0CA376;
 }
 .gIconSocial {
   margin-top: 5%;
+  color: #11A478;
+  width: 70%;
+  margin: 0 15%;
 }
 .gtSign {
+  color: #B5B6B7;
   margin-top: -15%;
 }
 .lsSign {
-  margin-top: 20%;
+  color: #B5B6B7;
+  transform: scaleX(-1);
 }

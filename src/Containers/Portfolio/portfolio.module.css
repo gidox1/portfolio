@@ -52,3 +52,20 @@
  	opacity: 1;
   }
 }
+
+@media only screen and (max-width: 425px) {
+  .each_ {
+    width: 80%;
+    height: 50%;
+    display: flex;
+    flex-flow: column;
+    border: 1px solid #B5B6B7;
+    cursor: pointer;
+    margin: auto;
+    margin-bottom: 3%;
+  }
+  .logoDiv {
+    flex-flow: column;
+    height: 100%;
+  }
+}

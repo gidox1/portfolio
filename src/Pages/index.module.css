@@ -4,7 +4,7 @@ html,body {
   padding: 0px;
   overflow-x: hidden; 
   margin: 0;
-  overflow: hidden
+  overflow: hidden;
 }
 .container {
   width: 100%;
@@ -42,13 +42,13 @@ html,body {
   height: 100%;
   background: white;
   border-radius: 33px;
+  border: 1px solid #0CA376;
 }
 .photoSec {
   height: 35%;
   width: 80%;
   margin: 0 10%;
   margin-top: 10%;
-  /* border: 1px solid red; */
 }
 .photo {
   position: relative;
@@ -63,4 +63,70 @@ html,body {
   width: 100%;
   height: 100%;
   border-radius: 50%;
+}
+.rounded {
+  display: none;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  position: absolute;
+  color: red;
+}
+.directions{
+  display: none;
+}
+.sidebar_ {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .sidebar_ {
+    display: unset;
+    position:fixed;
+    top:0;
+    right:0;
+    height: 587px;
+    width: 50%;
+    background: #0AA376;
+    margin-top: 5.5%;
+  }
+  .navContainer {
+    display: none;
+  }
+  .profileSection {
+    display: none;
+  }
+  .routes {
+    width: 100%;
+  }
+  .main{
+    width: 100%;
+    margin: 5.5% 3%;
+  }
+  .rounded {
+    display: none;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 1px solid red;
+    position: absolute;
+  }
+  .directions{
+    position:fixed;
+    bottom:1%;
+    right:5%;
+    display: unset;
+    border-radius: 40%;
+  }
+  .directions_ {
+    border: 1px solid #0CA376;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .sidebar {
+    width: 100%;
+  }
+  .sidebar_ {
+    width: 100%;
+  }
 }

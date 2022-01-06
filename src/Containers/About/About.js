@@ -29,7 +29,7 @@ const About = () => {
               <div
                 className={styles.info_segments}
               >
-                <div style={{width: '100%'}}>
+                <div className={styles.inner_seg}>
                   <FaLaptopCode
                     className={styles.laptop}
                   />

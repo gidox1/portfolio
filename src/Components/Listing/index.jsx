@@ -27,12 +27,22 @@ const Listing = () => {
             style={{ color: 'white' }}
             icon={faLinkedin} 
             className={styles.iconSocial}
+            onClick={
+              () => {
+                window.open('https://www.linkedin.com/in/gideon-odiase-07240313b/')
+              }
+            }
           />
           <FontAwesomeIcon
             size="2x" 
             style={{ color: 'white' }} 
             icon={faGithub}
             className={styles.iconSocial}
+            onClick={
+              () => {
+                window.open('https://github.com/gidox1')
+              }
+            }
           />
         </div>
         <div
@@ -42,6 +52,11 @@ const Listing = () => {
             type="button"
             className={styles.download}
             value="Download CV"
+            onClick={
+              () => {
+                window.open('https://res.cloudinary.com/passionpolisapi/image/upload/v1641065397/Gideon-Odiase-professional-resume_b98jjx.pdf')
+              }
+            }
           />
         </div>
         <p

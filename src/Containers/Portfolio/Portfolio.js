@@ -24,6 +24,11 @@ const Portfolio = () => {
           <img
             className={`${styles.imgClass} ${styles.ghLogo}`}
             src='/iconmonstr-github-1.svg'
+            onClick={
+              () => {
+                window.open('https://github.com/gidox1')
+              }
+            }
           />
           <p
             className={styles.lowerLabel}
@@ -37,6 +42,11 @@ const Portfolio = () => {
           <img
             className={`${styles.imgClass} ${styles.npmLogo}`}
             src='/npm.svg'
+            onClick={
+              () => {
+                window.open('https://www.npmjs.com/~gidox')
+              }
+            }
           />
           <p
             className={styles.lowerLabel}
